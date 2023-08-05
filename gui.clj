@@ -64,18 +64,13 @@
                                                      :svg-group        (svg2jfx/batik-load circle-svg)
                                                      :grid-pane/row    1
                                                      :grid-pane/column 1}
-                                                    #_#_#_#_
-                                                    {:fx/type          datapreview
+                                                    {:fx/type          svg
+                                                     :svg-group        circle-group
                                                      :grid-pane/row    2
                                                      :grid-pane/column 0}
-                                                    {:fx/type          datapreview
+                                                    #_{:fx/type          svg
+                                                     :svg-group        circle-group
                                                      :grid-pane/row    2
-                                                     :grid-pane/column 1}
-                                                    {:fx/type          datapreview
-                                                     :grid-pane/row    3
-                                                     :grid-pane/column 0}
-                                                    {:fx/type          datapreview
-                                                     :grid-pane/row    3
                                                      :grid-pane/column 1}]}]}}}})
 
 #_
